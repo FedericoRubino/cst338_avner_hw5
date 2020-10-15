@@ -8,11 +8,7 @@ public class Vehicle {
     private String streetLegal;
 
     public Vehicle(Vehicle copyVehicle){
-//        this.make = copyVehicle.getMake();
-//        this.model = model;
-//        this.emissionsPerMile = emissionsPerMile;
-        //copy all of the copyVehicle members into the current one
-//        this(copyVehicle.getMake(),...)
+        this(copyVehicle.getMake(),copyVehicle.getModel(),copyVehicle.getEmissionsPerMile());
     }
 
     /**
